@@ -16,6 +16,30 @@
     <link rel="stylesheet" href="assets/css/style.css"><!-- Style -->
     <link rel="stylesheet" href="assets/css/responsive.css"><!-- Responsive -->
     <link rel="stylesheet" href="assets/css/color.css"><!-- Default Color Scheme -->
+	
+	<title>2 Column Grid</title>
+    <style>
+        /* The parent container that enables the grid layout */
+        .grid-container {
+            display: grid;
+            /* Creates two columns that split the space evenly */
+            grid-template-columns: 0fr 2fr 1fr;
+            /* Adds space between your columns and rows */
+            gap: 10px; 
+            padding: 10px;
+        }
+
+        /* Styling for the items inside the grid (optional) */
+        .grid-item {
+            background-color: #f0f4f8;
+            border: 1px solid #d1d5db;
+            padding: 20px;
+            text-align: center;
+            font-family: sans-serif;
+            border-radius: 8px;
+        }
+    </style>
+	
 </head>
 <body itemscope>
     <main>        
@@ -115,26 +139,55 @@
                                         </div>
                                     </form>
                                 </div><!-- Contact Form Wrap -->
-                            </div>
-							
-							
+                            </div>	
                         </div>
                     </div><!-- Contact Wrap -->
-                </div>  
-
-  <!-- Map Start -->
-  <div class="sigma_map">
-    <iframe
-      src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15788.328310274215!2d77.0272333!3d8.3935882!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xcfc0aa41ffb2d9f3!2sAEnon%20Technologies%20Private%20Limited!5e0!3m2!1sen!2sin!4v1672115593785!5m2!1sen!2sin"
-      allowfullscreen=""></iframe>
-
-  </div>
-  <!-- Map End -->				
-                
+                </div> 
             </div>
         </section>
 		
+		<section>
+			<div class="container"> 
+				<h3 itemprop="headline"><span class="theme-clr">        
+				<br></span> Requirements</h3>				
+			
+				<div class="grid-container">
+					<div class="grid-item">1</div>
+					<div class="grid-item">Ashram</div>
+					<div class="grid-item">5,00,000.00</div>
+					
+					<div class="grid-item">2</div>
+					<div class="grid-item">Meditation Centre</div>
+					<div class="grid-item">8,00,000.00</div>
+					
+					<div class="grid-item">3</div>
+					<div class="grid-item">Recording Studio</div>
+					<div class="grid-item">6,00,000.00</div>
+					
+					<div class="grid-item">4</div>
+					<div class="grid-item">Land Scaping</div>
+					<div class="grid-item">3,00,000.00</div>
+					
+					<div class="grid-item">5</div>
+					<div class="grid-item">Accomodation Hut (6 Nos)</div>
+					<div class="grid-item">18,00,000.00</div>
+				</div>
+			</div>			
+        </section>
 		
+		<section>
+			<div class="container">			
+				<h3 itemprop="headline"><span class="theme-clr">        
+				<br></span> Google Map</h3>
+				
+				<!-- Map Start -->
+				<div class="sigma_map">
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3947.0800903172762!2d77.03006520000001!3d8.3937837!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b05af772b9772a3%3A0xad7dfc8fba8faa7b!2sLife%20Giving%20News!5e0!3m2!1sen!2sin!4v1783480574801!5m2!1sen!2sin" width="600" height="450" style="border:2px solid #333333; border-radius: 8px;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+
+				</div>
+				<!-- Map End -->
+			</div>			
+        </section>
 		
         <section>
             <div class="spacing less-spacing gray-bg">
@@ -217,7 +270,7 @@
         <div class="bottom-bar">
             <div class="container">
                 <div class="footer-wrap">
-                  <p itemprop="description"><a class="theme-clr" href="http://www.jaibheemtrust.com">Christu Kshetra</a> &copy; 2020, All Rights Reserved, Design & Developed By: <a class="theme-clr" href="https://www.aenontechnologies.net/" title="" itemprop="url">AEnon Technologies PVT LTD</a></p>
+                  <p itemprop="description"><a class="theme-clr" href="https://christukshetra.com/">Christu Kshetra</a> &copy; 2020, All Rights Reserved, Design & Developed By: <a class="theme-clr" href="https://www.aenontechnologies.net/" title="" itemprop="url">AEnon Technologies PVT LTD</a></p>
                    
                 </div>
             </div>
